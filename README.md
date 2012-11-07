@@ -34,3 +34,5 @@ Then install the package via
 npm link 
 ```
 
+Sample code could be found in the example directory.
+
