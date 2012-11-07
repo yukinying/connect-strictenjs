@@ -1,0 +1,19 @@
+<html>
+
+<div id='test'>
+<script>
+
+console.log(this);
+(function(){ 
+
+  console.log('call global variable directly');
+  console.log(window.addEventListener);
+
+  var j = this;
+  console.log('call this and in hope that it is the global variable');
+  console.log(this.addEventListener);
+
+})();
+</script>
+</div>
+</html>
