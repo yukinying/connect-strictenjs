@@ -7,6 +7,10 @@
     "example": "examples",
     "test": "test"
   },
+  "dependencies": {
+    { "uglify-js2" : "> 1.0.0"
+    }
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
