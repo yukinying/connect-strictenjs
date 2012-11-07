@@ -1,0 +1,24 @@
+{
+  "name": "connect-strictenjs",
+  "version": "0.0.1",
+  "description": "a Strict mode (ES5) enforcer via connect middleware",
+  "main": "lib/connect-stricten.js",
+  "directories": {
+    "example": "examples",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:yukinying/connect-strictenjs.git"
+  },
+  "keywords": [
+    "ES5",
+    "connect",
+    "strict"
+  ],
+  "author": "Albert Yu",
+  "license": "BSD"
+}
