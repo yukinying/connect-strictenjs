@@ -11,6 +11,18 @@ code are compatible with the ES5 strict mode.
 The package also comes with a code beautifier (based on UglifyJS2), which allows easier troubleshooting when syntax errors
 are reported on minified code.
 
+installation
+------------
+
+from npm - TBD
+
+from git 
+```shell
+git clone git://github.com/yukinying/connect-strictenjs.git
+cd connect-strictenjs 
+npm link .
+```
+
 recommended usage
 -----------------
 
@@ -26,12 +38,6 @@ app.use(strict.stricten() );
 app.use(strict.beautifier());
 
 // ... other logics that render the pages
-```
-
-Then install the package via 
-
-```shell
-npm link 
 ```
 
 Sample code could be found in the example directory.
