@@ -16,14 +16,15 @@ var proxyware = function( req, res ) {
   req.headers["Accept-Encoding"] = '';
   proxy.proxyRequest(req, res, {
     host: uri.hostname,
-    port: uri.port || 80
+    port: (uri.port || 80),
   });
 };
 
-// app.use(express.logger());
+app.use(express.logger());
 app.use(connect.responseTime());
 app.use(strict.stricten() );
 app.use(strict.beautifier());
 app.all('/*',proxyware);
 
 app.listen(8080);
+
