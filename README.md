@@ -40,5 +40,5 @@ app.use(strict.beautifier());
 // ... other logics that render the pages
 ```
 
-Sample code could be found in the example directory.
+Sample code could be found in the examples directory.
 
